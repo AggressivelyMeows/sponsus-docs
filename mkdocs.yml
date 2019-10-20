@@ -1,0 +1,28 @@
+# Project information
+site_name: 'Sponsus Docs'
+site_description: 'Documentation about Sponsus!'
+site_author: 'Cerulean'
+site_url: 'https://sponsus.org/about'
+
+dev_addr: '0.0.0.0:8086'
+# Copyright
+copyright: 'Copyright &copy; 2019  Sponsus'
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  palette:
+    primary: 'indigo'
+    accent: 'dark blue'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
